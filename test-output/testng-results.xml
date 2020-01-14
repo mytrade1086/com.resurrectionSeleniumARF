@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42682" started-at="2020-01-12T13:38:12Z" finished-at="2020-01-12T13:38:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42682" started-at="2020-01-12T13:38:12Z" finished-at="2020-01-12T13:38:54Z">
+      <class name="com.resurrectionSeleniumARF.TestNgParallelExecution">
+        <test-method status="PASS" signature="loginBing()[pri:0, instance:com.resurrectionSeleniumARF.TestNgParallelExecution@6a4f787b]" name="loginBing" duration-ms="14052" started-at="2020-01-12T13:38:12Z" finished-at="2020-01-12T13:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBing -->
+        <test-method status="PASS" signature="loginGoogle()[pri:0, instance:com.resurrectionSeleniumARF.TestNgParallelExecution@6a4f787b]" name="loginGoogle" duration-ms="15216" started-at="2020-01-12T13:38:12Z" finished-at="2020-01-12T13:38:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGoogle -->
+        <test-method status="PASS" signature="loginRediff()[pri:0, instance:com.resurrectionSeleniumARF.TestNgParallelExecution@6a4f787b]" name="loginRediff" duration-ms="28563" started-at="2020-01-12T13:38:26Z" finished-at="2020-01-12T13:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRediff -->
+      </class> <!-- com.resurrectionSeleniumARF.TestNgParallelExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
