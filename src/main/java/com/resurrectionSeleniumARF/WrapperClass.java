@@ -9,8 +9,10 @@ public class WrapperClass {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(i+Integer.parseInt(num)); //22
+		//Important: Wrapper classes can hold null value as well
+		           //Primitive can't hold null
 		
+		System.out.println(i+Integer.parseInt(num)); //22
 		System.out.println(String.valueOf(i)+String.valueOf(j)); //1011
 		
 		
