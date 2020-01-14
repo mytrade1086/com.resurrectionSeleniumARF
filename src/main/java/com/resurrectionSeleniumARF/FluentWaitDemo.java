@@ -20,6 +20,8 @@ public class FluentWaitDemo  {
 	
 	public static void main(String[] args) {
 		
+		//Code is Buggy and inprocess
+		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		

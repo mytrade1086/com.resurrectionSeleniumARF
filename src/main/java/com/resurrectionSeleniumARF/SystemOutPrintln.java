@@ -6,7 +6,7 @@ public class SystemOutPrintln {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-   //System  ==>The System class contains several useful class fieldsand methods. It cannot be instantiated.
+   //System  ==>The System class contains several useful class fields and methods. It cannot be instantiated.
 		
   //out =>public static final PrintStream out   
 		
