@@ -13,8 +13,7 @@ public class ArchiTechture {
 		
 		SearchContext scChrome=new ChromeDriver();
 		
-		scChrome.findElement(by);
-		scChrome.findElements(by);
+	
 		
 		
 		
