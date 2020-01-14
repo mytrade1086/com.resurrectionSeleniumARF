@@ -23,11 +23,7 @@ public class WebDriverBasics {
 		
 		driver.quit();
 		//now driver is null. No session id maintained
-		
-		driver.get("http://www.google.com"); //org.openqa.selenium.NoSuchSessionException Session ID is null
-		
-		
-		
+		driver.get("http://www.google.com"); //org.openqa.selenium.NoSuchSessionException Session ID is null	
 		
 		//Case 2
 		//driver.close();
