@@ -7,27 +7,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class ArchiTechture {
-	
+
 	public static void main(String[] args) {
-		
-		
-		SearchContext scChrome=new ChromeDriver();
-		
-	
-		
-		
-		
-		
-		
-		SearchContext scFirefox=new FirefoxDriver();
-		
-		WebDriver driver=new ChromeDriver();
-		
-		driver.
-		
-		
-		
-		
+
+		SearchContext scChrome = new ChromeDriver();
+		//scChrome.findElement(by)
+		//scChrome.findElements(by)
+
+		SearchContext scFirefox = new FirefoxDriver();
+		// SearchContext can access only two methods.
+
+		WebDriver driver = new ChromeDriver();
+
 	}
 
 }
