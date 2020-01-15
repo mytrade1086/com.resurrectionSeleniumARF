@@ -17,7 +17,7 @@ public class isPresent_isDisplayed_isEnabled extends SumitUtility {
 		
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
-		isPresent_isDisplayed_isEnabled ipe=new isPresent_isDisplayed_isEnabled(driver);
+		//isPresent_isDisplayed_isEnabled ipe=new isPresent_isDisplayed_isEnabled(driver);
 		
 		driver.get("https://www.wikipedia.org/");
 		

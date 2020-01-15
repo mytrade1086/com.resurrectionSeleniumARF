@@ -28,7 +28,7 @@ public class SumitUtility {
 public static boolean isElementPresent(WebDriver driver,By by) {
 try {
 		 driver.findElement(by);
-		System.out.println("Webelement present");
+		System.out.println(by.toString()+" <b>Webelement present</b>");
 		return true;
 	} catch (Exception e) {
 		System.out.println("No Element present");
