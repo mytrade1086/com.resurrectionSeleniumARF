@@ -16,7 +16,7 @@ public class Findelements_value_attibute {
 		
 		System.out.println(driver.findElement(By.name("firstname")).getAttribute("value"));
 
-		//driver.close();
+		driver.quit();
 	}
 
 }
