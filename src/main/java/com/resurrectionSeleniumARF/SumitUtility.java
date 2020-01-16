@@ -7,9 +7,6 @@ import org.openqa.selenium.WebElement;
 public class SumitUtility {
 
 //static WebDriver driver;
-	
-	
-
 //public SumitUtility(WebDriver driver) {
 //		this.driver=driver;
 //	}
