@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28919" started-at="2020-01-19T14:40:53Z" finished-at="2020-01-19T14:41:22Z">
+  <suite name="Default suite" duration-ms="27108" started-at="2020-01-20T13:55:33Z" finished-at="2020-01-20T13:56:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28919" started-at="2020-01-19T14:40:53Z" finished-at="2020-01-19T14:41:22Z">
-      <class name="com.resurrectionSeleniumARF.TestNGDataProviderDemo">
-        <test-method status="PASS" signature="signin(java.lang.String, java.lang.String)[pri:0, instance:com.resurrectionSeleniumARF.TestNGDataProviderDemo@6a41eaa2]" name="signin" duration-ms="15353" started-at="2020-01-19T14:40:53Z" data-provider="provider" finished-at="2020-01-19T14:41:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sumit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[raut]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="27108" started-at="2020-01-20T13:55:33Z" finished-at="2020-01-20T13:56:00Z">
+      <class name="com.resurrectionSeleniumARF.Webtable">
+        <test-method status="PASS" signature="Webtablework()[pri:0, instance:com.resurrectionSeleniumARF.Webtable@6a4f787b]" name="Webtablework" duration-ms="27014" started-at="2020-01-20T13:55:33Z" finished-at="2020-01-20T13:56:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signin -->
-        <test-method status="PASS" signature="signin(java.lang.String, java.lang.String)[pri:0, instance:com.resurrectionSeleniumARF.TestNGDataProviderDemo@6a41eaa2]" name="signin" duration-ms="13505" started-at="2020-01-19T14:41:08Z" data-provider="provider" finished-at="2020-01-19T14:41:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[neha]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Deshmukh]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signin -->
-      </class> <!-- com.resurrectionSeleniumARF.TestNGDataProviderDemo -->
+        </test-method> <!-- Webtablework -->
+      </class> <!-- com.resurrectionSeleniumARF.Webtable -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
