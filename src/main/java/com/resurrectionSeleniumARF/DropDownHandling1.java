@@ -20,7 +20,7 @@ public class DropDownHandling1 {
 		
 		
 		Select day=new Select(driver.findElement(By.id("day")));
-		day.selectByValue("11");
+		day.selectByValue("10");
 
 		Select month=new Select(driver.findElement(By.id("month")));
 		month.selectByValue("11");

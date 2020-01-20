@@ -1,6 +1,7 @@
 package com.resurrectionSeleniumARF;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -14,10 +15,6 @@ public class ActionsClassDemo {
 		Actions act=new Actions(driver) ;
 		act.click(driver.findElement(By.xpath("//Select[@title='Search in']"))).click(); //No need of build().perform() as single action
 		
-		
-		
-		
-
-		
+	
 	}
 }
