@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.resurrectionSeleniumARF.TestNgDemoParamters">
+      <class name="com.resurrectionSeleniumARF.RoughTestNG">
         <methods>
-          <include name="parameterDemo"/>
+          <include name="launch"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.resurrectionSeleniumARF.TestNgDemoParamters -->
+      </class> <!-- com.resurrectionSeleniumARF.RoughTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

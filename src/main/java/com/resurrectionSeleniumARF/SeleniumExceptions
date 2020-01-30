@@ -1,0 +1,13 @@
+org.openqa.selenium.NoSuchElementException
+
+ElementNotVisibleException
+
+TimeoutException - 
+If we provide timeout in Implicit/Explicit and element does not show up then above would happen
+
+org.openqa.selenium.ElementNotInteractableException
+
+Motwani example of two radio button with same id
+one hidden other not
+link:http://seleniumpractise.blogspot.com/2016/08/how-to-automate-radio-button-in.html
+

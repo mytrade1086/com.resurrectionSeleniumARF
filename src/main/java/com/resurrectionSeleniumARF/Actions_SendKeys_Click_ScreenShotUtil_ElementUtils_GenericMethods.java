@@ -15,6 +15,8 @@ public class Actions_SendKeys_Click_ScreenShotUtil_ElementUtils_GenericMethods {
         
 		Actions act = new Actions(driver);
 		act.sendKeys(driver.findElement(By.name("q")), "sumit").build().perform();
+		
+		
 
 	}
 
