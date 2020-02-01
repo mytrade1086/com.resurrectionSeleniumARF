@@ -7,6 +7,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TestNGDataProviderDemo {
+	
 	@Test(dataProvider = "provider")
 	public void signin(String username,String password) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "H://chromedriver_win32//chromedriver.exe");
