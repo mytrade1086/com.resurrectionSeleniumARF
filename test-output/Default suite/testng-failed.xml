@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.resurrectionSeleniumARF.TestNgDataDrivingHashTable">
+      <class name="com.resurrectionCases.TestNGdemo1">
         <methods>
-          <include name="ExcelHashTable"/>
+          <include name="methodoneOne"/>
         </methods>
-      </class> <!-- com.resurrectionSeleniumARF.TestNgDataDrivingHashTable -->
+      </class> <!-- com.resurrectionCases.TestNGdemo1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

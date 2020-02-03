@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="892" started-at="2020-02-01T12:53:15Z" finished-at="2020-02-01T12:53:16Z">
+  <suite name="GiveSuiteName" duration-ms="77" started-at="2020-02-03T10:53:48Z" finished-at="2020-02-03T10:53:48Z">
     <groups>
+      <group name="tp">
+        <method signature="TestNGdemo1.methodoneOne()[pri:0, instance:com.resurrectionCases.TestNGdemo1@146ba0ac]" name="methodoneOne" class="com.resurrectionCases.TestNGdemo1"/>
+      </group> <!-- tp -->
     </groups>
-    <test name="Default test" duration-ms="892" started-at="2020-02-01T12:53:15Z" finished-at="2020-02-01T12:53:16Z">
-      <class name="com.resurrectionSeleniumARF.TestNgDataDrivingHashTable">
-        <test-method status="PASS" signature="ExcelHashTable(java.util.Hashtable)[pri:0, instance:com.resurrectionSeleniumARF.TestNgDataDrivingHashTable@1a968a59]" name="ExcelHashTable" duration-ms="15" started-at="2020-02-01T12:53:16Z" data-provider="xlsprovider" finished-at="2020-02-01T12:53:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=22.0, env=23.0, username=21.0}]]>
-              </value>
-            </param>
-          </params>
+    <test name="tagTest" duration-ms="77" started-at="2020-02-03T10:53:48Z" finished-at="2020-02-03T10:53:48Z">
+      <class name="com.resurrectionCases.TestNGdemo1">
+        <test-method status="PASS" signature="methodoneOne()[pri:0, instance:com.resurrectionCases.TestNGdemo1@146ba0ac]" name="methodoneOne" duration-ms="19" started-at="2020-02-03T10:53:48Z" finished-at="2020-02-03T10:53:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ExcelHashTable -->
-        <test-method status="PASS" signature="ExcelHashTable(java.util.Hashtable)[pri:0, instance:com.resurrectionSeleniumARF.TestNgDataDrivingHashTable@1a968a59]" name="ExcelHashTable" duration-ms="2" started-at="2020-02-01T12:53:16Z" data-provider="xlsprovider" finished-at="2020-02-01T12:53:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=32.0, env=33.0, username=31.0}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExcelHashTable -->
-      </class> <!-- com.resurrectionSeleniumARF.TestNgDataDrivingHashTable -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- methodoneOne -->
+      </class> <!-- com.resurrectionCases.TestNGdemo1 -->
+    </test> <!-- tagTest -->
+  </suite> <!-- GiveSuiteName -->
 </testng-results>

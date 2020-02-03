@@ -8,4 +8,16 @@
       <class name="com.resurrectionCases.TestNGDemo3"/>
     </classes>
   </test> <!-- Test -->
+  
+  
+  
+    <test thread-count="5" name="Test2">
+    <classes>
+      <class name="com.resurrectionCases.TestNGDemo2">
+      <methods>
+      <exclude name="methodtwoTwo"/>
+      </methods>
+       </class>
+      </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

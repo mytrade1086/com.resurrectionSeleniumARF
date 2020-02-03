@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
-  <test thread-count="5" name="Test(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.resurrectionSeleniumARF.TestNgParallelExecution">
+      <class name="com.resurrectionCases.AssertDemo">
         <methods>
-          <include name="loginGoogle"/>
+          <include name="testAssert"/>
         </methods>
-      </class> <!-- com.resurrectionSeleniumARF.TestNgParallelExecution -->
+      </class> <!-- com.resurrectionCases.AssertDemo -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
