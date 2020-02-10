@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.resurrectionCases.TestNGdemo1">
+      <class name="com.resurrectionSeleniumARF.JavaScriptExecutorAll">
         <methods>
-          <include name="methodoneOne"/>
+          <include name="jsClick"/>
+          <include name="jsgetElementsById"/>
+          <include name="jsWindowScrollBy"/>
         </methods>
-      </class> <!-- com.resurrectionCases.TestNGdemo1 -->
+      </class> <!-- com.resurrectionSeleniumARF.JavaScriptExecutorAll -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

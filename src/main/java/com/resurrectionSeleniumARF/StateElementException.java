@@ -19,6 +19,9 @@ public class StateElementException {
 		driver.get("http://www.google.com");
 		
 		WebElement editGoogle=	driver.findElement(By.name("q"));
+		//WebElement editGoogle=	driver.findElement(By.cssSelector("input.gLFyf.gsfi"));
+		
+		//input.gLFyf.gsfi
 		
 		System.out.println(editGoogle.hashCode());
 		

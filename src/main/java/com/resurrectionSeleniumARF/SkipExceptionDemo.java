@@ -1,14 +1,14 @@
 package com.resurrectionSeleniumARF;
 
+import org.testng.SkipException;
 import org.testng.annotations.Test;
-
-public class SkipException {
+public class SkipExceptionDemo {
 	
 	
 	@Test
 	public void methodtoexecute() {
 		
-		
+		System.out.println("Normal TEST method");
 	}
 	
 	
@@ -16,7 +16,7 @@ public class SkipException {
 	public void methodtoSkip() {
 		
 		System.out.println("inside exception method");
-		throw new SkipException("skipped with skipException");
+		throw new SkipException("from skipException");
 	}
 
 
