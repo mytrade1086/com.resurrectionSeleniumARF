@@ -28,7 +28,7 @@ public class ActionClassRightClick {
 		act.contextClick(driver.findElement(By.name("q"))).build().perform(); //
 			
 		
-		
+		driver.quit();
 
 	}
 

@@ -37,7 +37,6 @@ public class MyGenericUtil {
 	
 	public static void ScreenPrint(WebDriver driver,String fileName) throws IOException {
 	File file= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	
 	FileUtils.copyFile(file, new File("H:\\eclipseWin10\\Resurrection\\ImageFrom\\"+fileName+".jpg"));
 		
 	}

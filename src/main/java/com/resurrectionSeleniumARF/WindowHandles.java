@@ -14,6 +14,7 @@ public class WindowHandles {
 		System.setProperty("webdriver.chrome.driver", "H://chromedriver_win32//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/popup.php");
+		
 
 		String parentHandle = driver.getWindowHandle();
 		driver.findElement(By.linkText("Click Here")).click();

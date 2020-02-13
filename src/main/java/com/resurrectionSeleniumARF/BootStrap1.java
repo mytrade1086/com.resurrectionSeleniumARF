@@ -17,20 +17,9 @@ public class BootStrap1 {
 		
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		
-		
-		
-		driver.findElement(By.xpath("//button[contains(text(),'Dropdown button')]")).click();
-		
+		driver.findElement(By.xpath("//button[contains(text(),'Dropdown button')]")).click();		
 		Thread.sleep(3000);
-		
 		driver.findElement(By.xpath("//div[@class='dropdown show']/div[@class='dropdown-menu show']/a[text()='Another action']")).click();
-		
-		
-		
-		
-		
-		
 		// https://getbootstrap.com/docs/4.0/components/dropdowns/
 
 	}

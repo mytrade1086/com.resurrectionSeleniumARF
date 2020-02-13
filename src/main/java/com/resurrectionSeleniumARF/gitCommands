@@ -1,0 +1,40 @@
+We have local repo and remote repo
+
+from folder when we create git init => it makes that folder local git repo
+
+git add  => will add files for indexing(consider kind of staging area
+
+git commit -m " your comment" =>will make them ready for push to remote
+
+
+
+Now to map this local with remote repo, we will create repo on github
+once this repo is created we will link it with local repo
+
+git remote add origin <remote repo.git>   //now linking is done
+
+git push origin master    // copying file from local to remote in master branch
+
+
+git log // will show log 
+
+
+now LOCAL==REMOTE
+
+Lets make some change on remote. Lets say add "file1.txt" on remote
+
+now Local not equals remote
+
+
+git pull origin master   //sync again
+
+now LOCAL==REMOTE
+
+git branch =>shows what branch we are on
+
+
+git checkout <branchname>  => will change user branch
+
+
+
+

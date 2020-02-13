@@ -12,8 +12,6 @@ public class TestNGdependsOnMethods {
 		
 	}
 	
-	
-	
 	@Test(dependsOnMethods ="login")
 	public  void homePage() {
 		System.out.println("ruuning homePage");

@@ -23,7 +23,7 @@ public class HiddenHtml {
 				System.out.println("Displayed=" + el.isDisplayed() + " Text is:" + el.getText());
 				System.out.println(
 						"X coordinate is: " + el.getLocation().getX() + " Y coordinate is: " + el.getLocation().getY());
-				el.click();
+				//el.click();
 				// org.openqa.selenium.ElementNotInteractableException
 			}
 			catch (Exception e) {

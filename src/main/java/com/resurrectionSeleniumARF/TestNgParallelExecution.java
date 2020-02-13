@@ -10,23 +10,16 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestNgParallelExecution {
-	
-	
-	
+
 	@Test
 	public void loginRediff() {
-		
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
-	
-
     driver.get("http://www.rediff.com");
-	System.out.println("Window Handle is: "+driver.getWindowHandle()+" Hashcode of driver is: "+driver.hashCode());
-	
+	System.out.println("Window Handle is: "+driver.getWindowHandle()+" Hashcode of driver is: "+driver.hashCode());	
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	//driver.manage().timeouts().pageLoadTimeout(20 ,TimeUnit.SECONDS);
-	
 	driver.quit();
 	}
    
@@ -36,35 +29,24 @@ public class TestNgParallelExecution {
 		
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
-	
-
-    driver.get("http://www.google.com");
-	System.out.println("Window Handle is: "+driver.getWindowHandle()+" Hashcode of driver is: "+driver.hashCode());
-	
+	driver.get("http://www.google.com");
+	System.out.println("Window Handle is: "+driver.getWindowHandle()+" Hashcode of driver is: "+driver.hashCode());	
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	//driver.manage().timeouts().pageLoadTimeout(20 ,TimeUnit.SECONDS);
-	
 	driver.quit();
 	}
-   
 	
 	@Test
 	public void loginBing() {
-		
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
-	
-
-    driver.get("http://www.bing.com");
+	driver.get("http://www.bing.com");
 	System.out.println("Window Handle is: "+driver.getWindowHandle()+" Hashcode of driver is: "+driver.hashCode());
-	
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	//driver.manage().timeouts().pageLoadTimeout(20 ,TimeUnit.SECONDS);
-	
 	driver.quit();
-	
 	}
 
 }

@@ -34,11 +34,15 @@ public class AsesertVSverify {
 		SoftAssert sa=new SoftAssert();
 		
 		sa.assertEquals("sumit", "sumt");
-		sa.assertEquals("true", "true");
+		System.out.println("first line after assert");
+		System.out.println("second line after assert");
 		sa.assertAll();
 		
-		//FAILED: assertDemo
-		//java.lang.AssertionError: expected [sumt] but found [sumit]
+//		first line after assert
+//		second line after assert
+//		FAILED: VerifyDemo
+//		java.lang.AssertionError: The following asserts failed:
+//			expected [sumt] but found [sumit]
 		
 	}
 	

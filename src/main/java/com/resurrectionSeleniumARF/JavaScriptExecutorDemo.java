@@ -18,9 +18,7 @@ public class JavaScriptExecutorDemo {
 
 		String text = js.executeScript("return document.title;").toString();
 		System.out.println(text); // Google
-
 		driver.findElement(By.name("q")).sendKeys("love");
-
 		WebElement edit = driver.findElement(By.xpath("(//input[@class='gNO89b'])[1]"));
 		js.executeScript("arguments[0].click();", edit);
 

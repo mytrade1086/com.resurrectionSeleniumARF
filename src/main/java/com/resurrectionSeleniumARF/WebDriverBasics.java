@@ -18,6 +18,8 @@ public class WebDriverBasics {
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		
+		selenium.
+		
 		
 		//Case 1
 		

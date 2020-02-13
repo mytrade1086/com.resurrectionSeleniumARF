@@ -11,7 +11,6 @@ public class JavaScriptExecutor {
 		System.setProperty("webdriver.chrome.driver","H:\\chromedriver_win32\\chromedriver.exe");
 		
 		driver=new ChromeDriver();
-		
 		driver.get("http://www.rediff.com");
 		
 		
