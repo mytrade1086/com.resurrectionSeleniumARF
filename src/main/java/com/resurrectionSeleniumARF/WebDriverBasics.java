@@ -1,5 +1,6 @@
 package com.resurrectionSeleniumARF;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -18,14 +19,20 @@ public class WebDriverBasics {
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		
-		selenium.
 		
+//		String fullxpath="//a[text()='Gmail']";
+//		String partial1="//a[text()='";
+//		String partial2="Gmail";
+//		String Partial3="']";
+//		String total=partial1+partial2+Partial3;
+//		driver.findElement(By.xpath(total)).click();
+//				
 		
 		//Case 1
 		
-		driver.quit();
+		//driver.quit();
 		//now driver is null. No session id maintained
-		driver.get("http://www.google.com"); //org.openqa.selenium.NoSuchSessionException Session ID is null	
+		//driver.get("http://www.google.com"); //org.openqa.selenium.NoSuchSessionException Session ID is null	
 		
 		//Case 2
 		//driver.close();
