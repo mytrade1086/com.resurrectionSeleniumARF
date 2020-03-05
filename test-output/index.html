@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sunshine\AppData\Local\Temp\testng-eclipse-1898121832\testng-customsuite.xml</span>
+                    <span>C:\Users\sunshine\AppData\Local\Temp\testng-eclipse-2058532395\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.resurrectionSeleniumARF.TestNGalwyasrun" hash-for-method="one">one</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.resurrectionSeleniumARF.Windows" hash-for-method="newTabbedWindow">newTabbedWindow</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,7 +116,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.resurrectionSeleniumARF.TestNGalwyasrun" hash-for-method="two">two</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.resurrectionSeleniumARF.Windows" hash-for-method="newSeparateWindow">newSeparateWindow</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -134,22 +134,24 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.resurrectionSeleniumARF.TestNGalwyasrun</span>
+              <span class="class-name">com.resurrectionSeleniumARF.Windows</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="one">
-                  </a> <!-- one -->
-                  <span class="method-name">one</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [bg] but found [sumit]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.resurrectionSeleniumARF.TestNGalwyasrun.one(TestNGalwyasrun.java:14)
+                  <a name="newTabbedWindow">
+                  </a> <!-- newTabbedWindow -->
+                  <span class="method-name">newTabbedWindow</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using link text=Contact
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-G0D562V&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.resurrectionSeleniumARF.Windows.newTabbedWindow(Windows.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -184,14 +186,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.resurrectionSeleniumARF.TestNGalwyasrun</span>
+              <span class="class-name">com.resurrectionSeleniumARF.Windows</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="two">
-                  </a> <!-- two -->
-                  <span class="method-name">two</span>
+                  <a name="newSeparateWindow">
+                  </a> <!-- newSeparateWindow -->
+                  <span class="method-name">newSeparateWindow</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,7 +201,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sunshine\AppData\Local\Temp\testng-eclipse-1898121832\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sunshine\AppData\Local\Temp\testng-eclipse-2058532395\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -208,7 +210,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.resurrectionSeleniumARF.TestNGalwyasrun&quot;/&gt;
+      &lt;class name=&quot;com.resurrectionSeleniumARF.Windows&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -250,18 +252,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'one')
-data.setCell(0, 2, 'com.resurrectionSeleniumARF.TestNGalwyasrun')
-data.setCell(0, 3, 26);
+data.setCell(0, 1, 'newSeparateWindow')
+data.setCell(0, 2, 'com.resurrectionSeleniumARF.Windows')
+data.setCell(0, 3, 19828);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'two')
-data.setCell(1, 2, 'com.resurrectionSeleniumARF.TestNGalwyasrun')
-data.setCell(1, 3, 2);
+data.setCell(1, 1, 'newTabbedWindow')
+data.setCell(1, 2, 'com.resurrectionSeleniumARF.Windows')
+data.setCell(1, 3, 15440);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 ms</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -287,16 +289,16 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.resurrectionSeleniumARF.TestNGalwyasrun</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.resurrectionSeleniumARF.Windows</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">one</span>
+                <span class="method-name">newSeparateWindow</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">two</span>
-                <span class="method-start">41 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">newTabbedWindow</span>
+                <span class="method-start">19835 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

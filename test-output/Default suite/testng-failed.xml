@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.resurrectionSeleniumARF.TestNGalwyasrun">
+      <class name="com.resurrectionSeleniumARF.Windows">
         <methods>
-          <include name="one"/>
+          <include name="newTabbedWindow"/>
         </methods>
-      </class> <!-- com.resurrectionSeleniumARF.TestNGalwyasrun -->
+      </class> <!-- com.resurrectionSeleniumARF.Windows -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
